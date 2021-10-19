@@ -7,11 +7,14 @@
 	list-style-type: none;
 	display: flex;
 	padding-top:40px;
-
+  
+	
 }
 
-li {
-	margin:0px 20px 
+.page_item a {
+	margin:0px 20px ;
+	text-decoration:none;
+	color:white
 }
 
 .menu-toggle{
@@ -19,7 +22,7 @@ li {
 }
 .site-header{
 	display:flex;
-	background-color: rgba(255, 0, 0, 0.4);
+	background-color: black;
 	justify-content:space-evenly
 }
 
