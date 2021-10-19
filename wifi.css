@@ -112,3 +112,37 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* Lihle's CSS */
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.sub-title{
+    display: flex;
+    color: rgb(222, 51, 112);
+    justify-content: center;
+}
+
+.wp-block-image size-large{
+    margin: 0;
+    width: 700px;
+    height: 400px;
+}
+
+.button {
+    background-color: white;
+    border: black;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.button:hover {
+    background-color: rgb(222, 51, 112);
+    color: white;
+}
