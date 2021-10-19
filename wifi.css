@@ -14,3 +14,16 @@ li {
 }
 /* 
 hello */
+
+/* Atheelah's CSS */
+.text{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+}
+.under{
+	top:80%;
+	color:red;
+}
