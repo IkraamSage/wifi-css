@@ -1,4 +1,8 @@
 /* Ikraam's CSS*/
+*{
+	padding:0px;
+	margin:0
+}
 .nav-menu {
 	list-style-type: none;
 	display: flex;
@@ -12,9 +16,10 @@ li {
 .menu-toggle{
 	display:none
 }
-/* 
-hello */
-
+.site-header{
+	background-color: rgba(255, 0, 0, 0.4);
+	padding:0px;
+}
 /* Atheelah's CSS */
 .text{
   position: absolute;
