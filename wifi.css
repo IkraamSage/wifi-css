@@ -6,7 +6,8 @@
 .nav-menu {
 	list-style-type: none;
 	display: flex;
-	justify-content:flex-end
+	padding-top:40px;
+
 }
 
 li {
@@ -17,9 +18,11 @@ li {
 	display:none
 }
 .site-header{
+	display:flex;
 	background-color: rgba(255, 0, 0, 0.4);
-	padding:0px;
+	justify-content:space-evenly
 }
+
 /* Atheelah's CSS */
 .text{
   position: absolute;
