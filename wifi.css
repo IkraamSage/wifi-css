@@ -95,3 +95,9 @@
 	background-color: #de3370;
 	color: #ffffff;
 }
+#wpforms-submit-350:hover{
+	transition:0.5s;
+	color: #000000;
+	background-color: #eee;
+	cursor:pointer
+}
