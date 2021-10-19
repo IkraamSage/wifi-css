@@ -112,7 +112,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-<<<<<<< HEAD
+/* Atheelah css for book */
 .under{
 	top:80%;
 	color:red;
@@ -141,7 +141,6 @@ button, input {
 	height: 50px;
 	width: 100px;
 }
-=======
 
 /* Lihle's CSS */
 
@@ -176,4 +175,3 @@ button, input {
     background-color: rgb(222, 51, 112);
     color: white;
 }
->>>>>>> e664323f18ec04a8c672b4557a60742a499af7ad
