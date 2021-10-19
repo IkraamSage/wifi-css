@@ -1,28 +1,118 @@
 /* Ikraam's CSS*/
+*{
+	padding:0px;
+	margin:0
+}
 .nav-menu {
 	list-style-type: none;
 	display: flex;
-	justify-content:flex-end
+	padding-top:40px;
+  
+	
 }
 
-li {
-	margin:0px 20px 
+.page_item a {
+	margin:0px 20px ;
+	text-decoration:none;
+	color:black
 }
 
 .menu-toggle{
 	display:none
 }
-/* 
-hello */
+.site-header{
+	position:fixed;
+	width:100%;
+	display:flex;
+	background: rgba(255,255,255,.95);
+    border-bottom: solid 1px #eee;
+	justify-content:space-evenly
+	
+}
+.input{
+	padding:10px;
+	
+}
+.wp-block-image img {
+    width: 100%;
+    object-fit: cover;
+}
 
-/* Atheelah's CSS */
-.text{
+/*kiyaamodien  */
+.services {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: 40%;
+	color: #eceff3;
+}
+
+.discover {
+	color: #eceff3;
+}
+
+.BI {
+	width: 100%;
+	height: 341px;
+	object-fit: cover;
+	opacity: 0.5;
+}
+
+.discover {
+	position: absolute;
+	top: 26%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.under {
+	color: #de3370;
+	top: 31%;
+	margin-bottom: 10px;
+}
+
+.services-container {
+	flex-direction: row;
+	justify-content: space-evenly;
+	display: flex;
+}
+
+.services-container {
+	height: 300px;
+	width: 300px;
+}
+/* nahum */
+#wpforms-350 {
+	background-color: #fff;
+	padding: 20px;
+	margin-top: 30px;
+}
+#wpforms-350-field_2{
+	width:608px;
+}
+#wpforms-submit-350{
+	background-color: #de3370;
+	color: #ffffff;
+	font-weight: bold;
+}
+#wpforms-submit-350:hover{
+	transition:0.5s;
+	color: #000000;
+	background-color: #eee;
+	cursor:pointer
+}
+#wpforms-350-field_0, #wpforms-350-field_1, #wpforms-350-field_2, #wpforms-350-field_3{
+	border: 1px solid #de3370;
+}
+
+/* Gary style for heading */
+.centered {
   position: absolute;
-  top: 70%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color:white;
 }
+<<<<<<< HEAD
 .under{
 	top:80%;
 	color:red;
@@ -51,3 +141,39 @@ button, input {
 	height: 50px;
 	width: 100px;
 }
+=======
+
+/* Lihle's CSS */
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.sub-title{
+    display: flex;
+    color: rgb(222, 51, 112);
+    justify-content: center;
+}
+
+.wp-block-image size-large{
+    margin: 0;
+    width: 700px;
+    height: 400px;
+}
+
+.button {
+    background-color: white;
+    border: black;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.button:hover {
+    background-color: rgb(222, 51, 112);
+    color: white;
+}
+>>>>>>> e664323f18ec04a8c672b4557a60742a499af7ad
