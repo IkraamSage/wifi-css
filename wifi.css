@@ -82,14 +82,14 @@ font-size:3em;
 
 .discover {
 	position: absolute;
-	top: 40%;
+	top: 38%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
 
 .under {
 	color: #de3370;
-	top: 47%;
+	top: 45%;
 	margin-bottom: 10px;
 	font-size: 14px;
 	letter-spacing: 5px;
