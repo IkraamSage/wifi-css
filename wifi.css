@@ -21,10 +21,13 @@
 	display:none
 }
 .site-header{
+	position:fixed;
+	width:100%;
 	display:flex;
 	background: rgba(255,255,255,.95);
     border-bottom: solid 1px #eee;
 	justify-content:space-evenly
+	
 }
 .input{
 	padding:10px;
@@ -33,19 +36,6 @@
 .wp-block-image img {
     width: 100%;
     object-fit: cover;
-}
-
-/* Atheelah's CSS */
-.text{
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color:white;
-}
-.under{
-	top:80%;
-	color:red;
 }
 
 /*kiyaamodien  */
