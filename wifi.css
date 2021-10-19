@@ -102,6 +102,9 @@
 	background-color: #eee;
 	cursor:pointer
 }
+#wpforms-350-field_0, #wpforms-350-field_1, #wpforms-350-field_2, #wpforms-350-field_3{
+	border: 1px solid #de3370;
+}
 
 /* Gary */
 .centered {
