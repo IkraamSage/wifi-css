@@ -94,6 +94,7 @@
 #wpforms-submit-350{
 	background-color: #de3370;
 	color: #ffffff;
+	font-weight: bold;
 }
 #wpforms-submit-350:hover{
 	transition:0.5s;
