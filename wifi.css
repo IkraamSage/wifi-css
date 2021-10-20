@@ -21,6 +21,7 @@
 	display:none
 }
 .site-header{
+	z-index:100;
 	position:fixed;
 	width:100%;
 	display:flex;
@@ -35,7 +36,19 @@
 }
 .wp-block-image img {
     width: 100%;
+		height:88vh;
+	  margin-top:80px;
     object-fit: cover;
+}
+.entry-content h2{
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+font-size:3em;
+	color:#ffffff;
+	font-family:open sans;
+	
 }
 
 /*kiyaamodien  */
@@ -49,43 +62,91 @@
 
 .discover {
 	color: #eceff3;
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 48px;
 }
 
 .BI {
 	width: 100%;
 	height: 341px;
 	object-fit: cover;
-	opacity: 0.5;
+	/* opacity: 0.5; */
 }
 
 .discover {
 	position: absolute;
-	top: 26%;
+	top: 34%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
 
 .under {
 	color: #de3370;
-	top: 31%;
+	top: 40%;
 	margin-bottom: 10px;
+	font-size: 14px;
+	letter-spacing: 5px;
 }
 
-.services-container {
-	flex-direction: row;
-	justify-content: space-evenly;
+.cards-list {
+	display: grid;
+	padding: 7% 7%;
+	grid-template-columns: repeat(3, 33.3%);
+	grid-template-rows: repeat(4, 1fr);
+}
+
+.image {
+	height: 350px;
+	width: 95%;
+	object-fit: cover;
+	transition: ease-in-out 0.3s;
+}
+
+/* .serv-img {
 	display: flex;
+	flex-direction: column;
+} */
+
+.subhead {
+	font-weight: bold;
+	font-size: 16px;
+	color: #333;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
 }
 
-.services-container {
-	height: 300px;
-	width: 300px;
+.info {
+	margin: 28px;
+	font-weight: 400;
+	text-align: center;
 }
+
+.image:hover {
+	opacity: 50%;
+}
+
+
 /* nahum */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.contact-heading{
+	margin-top: 50px;
+}
+.hero-image{
+	margin-left:-140px;
+	width:1355px;
+}
 #wpforms-350 {
 	background-color: #fff;
 	padding: 20px;
 	margin-top: 30px;
+	display: flex;
+	justify-content: center;
 }
 #wpforms-350-field_2{
 	width:608px;
@@ -112,6 +173,92 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* Gary styles for testimonial. */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 90%;
+  margin: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imgs {
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+.imgs:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  transition: ease-in 0.5s;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  text-indent: 10px;
+  text-align: center;
+  width: 70%;
+  padding: 10px;
+}
+
+/* left/right */
+.containers {
+  display: flex;
+  justify-content: center;
+}
+
+.fun {
+  font-size: 1.75rem;
+  margin: 30px;
+  align-items: flex-end;
+}
+
+/* Pattern styles */
+.containers {
+  display: flex;
+}
+
+.left-half {
+  background-color: #de3370;
+  flex: 1;
+  padding: 1rem;
+  margin-top: 5%;
+}
+
+.right-half {
+  background-color: #ddd;
+  flex: 1;
+  padding: 1rem;
+  margin-top: 5%;
+}
+/* end */
+
 /* Atheelah css for book */
 .under{
 	top:80%;
@@ -144,34 +291,203 @@ button, input {
 
 /* Lihle's CSS */
 
+
+.header-news{
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background: url(https://dev-lc-wifi.pantheonsite.io/wp-content/uploads/2021/10/istockphoto-1303558491-170667a-1.jpg);
+}
+.container {
+    position: relative;
+    text-align: center;
+}
 .title{
-    display: flex;
-    justify-content: center;
+    position: relative;
+    text-align: center;
+    font-weight: normal;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    color:#eceff3;
 }
 
 .sub-title{
-    display: flex;
-    color: rgb(222, 51, 112);
-    justify-content: center;
+    position: relative;
+    text-align: center;
+    color:#de3370;
+    top: 40%;
+    margin-bottom: 10px;
+    font-size: 14px;
+    letter-spacing: 5px;
 }
 
+.backg{
+    width: 100%;
+    height: 341px;
+    object-fit: cover;
+    /* opacity: 0.5 */
+}
+body{
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+}
 .wp-block-image size-large{
-    margin: 0;
-    width: 700px;
-    height: 400px;
+    margin-bottom: 0;
+    width: 100%;
+    border: 0;
+    vertical-align: middle;
 }
 
 .button {
-    background-color: white;
-    border: black;
-    text-align: center;
-    transition-duration: 0.4s;
-    text-decoration: none;
+    font-family: "Roboto Condensed";
+    font-size: 13px;
+    padding: 3px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-transform: uppercase;
     display: inline-block;
-    font-size: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+
 }
 
 .button:hover {
+    background: transparent;
     background-color: rgb(222, 51, 112);
-    color: white;
+    color: black;
+    transition: .3s;
 }
+
+.date-box{
+    display: block;
+    width: 60px;
+    position: absolute;
+    text-align: center;
+    text-shadow: none;
+    margin-top: -30px;
+}
+
+.date-box .day{
+    color: white;
+    display: block;
+    font-weight: 600;
+    font-size: 28px;
+    padding: 15px 0 15px 0;
+    text-align: center;
+    z-index: 100;
+    width: 60px;
+    background-color: #de3370;
+}
+
+.date-box .month{
+    display: block;
+    border-bottom-color: #de3370;
+    font-family: "Open Sans";
+    font-weight: 600;
+    padding: 7px 0 7px 0;
+    border-bottom: solid 3px #de3370;
+    text-align: center;
+    width: 60px;
+    z-index: 100;
+}
+
+.paragraph{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+}
+
+.text-class{
+    padding-left: 80px;
+}
+
+
+/* <end> */
+
+/* Gary */
+ <div class="container">
+      <div class="items">
+        <img
+          class="imgs"
+          src="https://www.designesia.com/themes/modis/images/team/team_pic_2.jpg"
+          alt="picture"
+        />
+        <div class="contents">
+          <h1>Briana</h1>
+          <p class="testimonial">
+            She is our Lead Hair Designer and the creative inspiration. She's
+            happy to help you decide the best hair style.
+          </p>
+        </div>
+      </div>
+
+      <div class="items">
+        <img
+          class="imgs"
+          src="https://www.designesia.com/themes/modis/images/team/team_pic_3.jpg"
+          alt="picture"
+        />
+        <div class="contents">
+          <h1>Jessica</h1>
+          <p class="testimonial">
+            She is our Lead Hair Designer and the creative inspiration. She's
+            happy to help you decide the best hair style.
+          </p>
+        </div>
+      </div>
+
+      <div class="items">
+        <img
+          class="imgs"
+          src="https://www.designesia.com/themes/modis/images/team/team_pic_1.jpg"
+          alt="picture"
+        />
+        <div class="contents">
+          <h1>Rachel</h1>
+          <p class="testimonial">
+            She is our Lead Hair Designer and the creative inspiration. She's
+            happy to help you decide the best hair style.
+          </p>
+        </div>
+      </div>
+
+      <div class="items">
+        <img
+          class="imgs"
+          src="https://www.designesia.com/themes/modis/images/team/team_pic_4.jpg"
+          alt="picture"
+        />
+        <div class="contents">
+          <h1>Emma</h1>
+          <p class="testimonial">
+            She is our Lead Hair Designer and the creative inspiration. She's
+            happy to help you decide the best hair style.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <section class="containers">
+      <div class="left-half">
+        <article>
+          <h1 class="fun">Fun Facts</h1>
+        </article>
+      </div>
+      <div class="right-half">
+        <article>
+          <p>
+            If your knees aren't green by the end of the day, you ought to
+            seriously re-examine your life.
+          </p>
+        </article>
+      </div>
+    </section>
+/* end */
