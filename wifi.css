@@ -52,12 +52,6 @@ font-size:3em;
 }
 
 /*kiyaamodien  */
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: sans-serif;
-}
 .services {
 	display: flex;
 	justify-content: center;
@@ -82,14 +76,14 @@ font-size:3em;
 
 .discover {
 	position: absolute;
-	top: 38%;
+	top: 34%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
 
 .under {
 	color: #de3370;
-	top: 45%;
+	top: 40%;
 	margin-bottom: 10px;
 	font-size: 14px;
 	letter-spacing: 5px;
@@ -106,6 +100,7 @@ font-size:3em;
 	height: 350px;
 	width: 95%;
 	object-fit: cover;
+	transition: ease-in-out 0.3s;
 }
 
 /* .serv-img {
@@ -123,10 +118,15 @@ font-size:3em;
 }
 
 .info {
-	margin-bottom: 20px;
-	margin: 10px;
+	margin: 28px;
 	font-weight: 400;
+	text-align: center;
 }
+
+.image:hover {
+	opacity: 50%;
+}
+
 
 /* nahum */
 #wpforms-350 {
