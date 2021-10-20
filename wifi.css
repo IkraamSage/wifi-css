@@ -159,6 +159,60 @@ font-size:3em;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* Gary styles for testimonial. */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 90%;
+  margin: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imgs {
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+.imgs:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  transition: ease-in 0.5s;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  text-indent: 10px;
+  text-align: center;
+  width: 70%;
+  padding: 10px;
+}
+
 /* Atheelah css for book */
 .under{
 	top:80%;
