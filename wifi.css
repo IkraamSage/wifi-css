@@ -129,10 +129,24 @@ font-size:3em;
 
 
 /* nahum */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.contact-heading{
+	margin-top: 50px;
+}
+.hero-image{
+	margin-left:-140px;
+	width:1355px;
+}
 #wpforms-350 {
 	background-color: #fff;
 	padding: 20px;
 	margin-top: 30px;
+	display: flex;
+	justify-content: center;
 }
 #wpforms-350-field_2{
 	width:608px;
