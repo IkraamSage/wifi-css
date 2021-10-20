@@ -213,6 +213,38 @@ font-size:3em;
   padding: 10px;
 }
 
+/* left/right */
+.containers {
+  display: flex;
+  justify-content: center;
+}
+
+.fun {
+  font-size: 1.75rem;
+  margin: 30px;
+  align-items: flex-end;
+}
+
+/* Pattern styles */
+.containers {
+  display: flex;
+}
+
+.left-half {
+  background-color: #de3370;
+  flex: 1;
+  padding: 1rem;
+  margin-top: 5%;
+}
+
+.right-half {
+  background-color: #ddd;
+  flex: 1;
+  padding: 1rem;
+  margin-top: 5%;
+}
+/* end */
+
 /* Atheelah css for book */
 .under{
 	top:80%;
