@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 90%;
+  margin: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imgs {
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+.imgs:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  transition: ease-in 0.5s;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  text-indent: 10px;
+  text-align: center;
+  width: 70%;
+  padding: 10px;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<>>>>>< */
+
+.containers {
+  display: flex;
+  justify-content: center;
+}
+
+.fun {
+  font-size: 1.75rem;
+  margin: 30px;
+  align-items: flex-end;
+}
+
+/* Pattern styles */
+.containers {
+  display: flex;
+}
+
+.left-half {
+  background-color: #de3370;
+  flex: 1;
+  padding: 1rem;
+  margin-top: 5%;
+}
+
+.right-half {
+  background-color: #ddd;
+  flex: 1;
+  padding: 1rem;
+  margin-top: 5%;
+}
+
+/* landing */
+.serv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 40%;
+  color: #eceff3;
+}
+
+.cover {
+  color: #eceff3;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 48px;
+}
+
+.pic {
+  width: 100%;
+  height: 341px;
+  object-fit: cover;
+  /* opacity: 0.5; */
+}
+
+.cover {
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dunder {
+  color: #de3370;
+  top: 40%;
+  margin-bottom: 10px;
+  font-size: 14px;
+  letter-spacing: 5px;
+}
+
+.item-self {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hair {
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 80%;
+  height: 80%;
+}
+
+.context {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 100px;
+  line-height: 1.5;
+}
+
+.item-self {
+  display: flex;
+  flex-direction: row;
+}
+
+.context {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 100px;
+  line-height: 1.5;
+}
+
+.contents {
+  display: flex;
+  flex-direction: row;
+}
