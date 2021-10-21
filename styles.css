@@ -1,8 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 
 .container {
   max-width: 90%;
@@ -127,10 +122,10 @@
 }
 
 .hair {
-  background-position: 50% 50%;
+  background-position: 50%;
   background-size: cover;
-  width: 80%;
-  height: 80%;
+  width: 48rem;
+  height: 45rem;
 }
 
 .context {
@@ -154,9 +149,4 @@
   padding: 20px;
   margin: 100px;
   line-height: 1.5;
-}
-
-.contents {
-  display: flex;
-  flex-direction: row;
 }
