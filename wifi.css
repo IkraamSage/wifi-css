@@ -50,6 +50,16 @@ font-size:3em;
 	font-family:open sans;
 	
 }
+.entry-content h3{
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 90%);
+font-size:2em;
+	color:#ffffff;
+	font-family:open sans;
+	
+}
 
 /*kiyaamodien  */
 .services {
